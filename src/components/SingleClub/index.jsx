@@ -2,6 +2,7 @@ import * as React from "react";
 import ClubUpperImage from "../../assets/pictures/ClubUpperImage.svg";
 import { useLocation } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
+import "../../styles/SingleClub.css";
 import displayRazorpay from "../../service/PaymentGateway";
 
 export default function SingleClub({ club }) {
